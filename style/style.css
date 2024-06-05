@@ -1,15 +1,19 @@
 /* root */
 :root {
+  /* Font */
   --font-family: "Inter", sans-serif;
 
+  /* Font Size */
   --font-small: 12px;
   --font-medium: 14px;
   --font-large: 18px;
   --font-title: 38px;
 
+  /* Font Weight */
   --fontweight-bold: 600;
   --fontweight-title: 800;
 
+  /* Color */
   --color-lightGray: #ededed;
   --color-gray: #d3d3d3;
   --color-font: #0d0d0d;
@@ -17,6 +21,7 @@
   --color-bg: #fdfdfd;
   --color-opacity: rgba(0, 0, 0, 0.7);
 
+  /* Margin */
   --size-small: 0.5em;
   --size-medium: 1em;
   --size-large: 2em;
@@ -288,7 +293,7 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 6vh;
+  height: 60px;
   font-weight: 700;
   align-items: center;
   padding: 0 var(--size-medium);
@@ -321,10 +326,10 @@ button {
 }
 .menu .menu__projects {
   position: fixed;
-  top: 6%;
+  top: 60px;
   left: 0;
   background-color: var(--color-bg);
-  height: var(--side-main-height);
+  height: 100%;
   width: var(--side-main-width);
   box-sizing: border-box;
   padding: var(--size-large);
@@ -378,10 +383,10 @@ button {
 /* Side Right menu */
 .menu .menu__all {
   position: fixed;
-  top: 6%;
+  top: 60px;
   right: 0;
   background-color: var(--color-bg);
-  height: var(--side-main-height);
+  height: 100%;
   width: 10vw;
   border-left: 1px solid var(--color-lightGray);
   z-index: 100;
