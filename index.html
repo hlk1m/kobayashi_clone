@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIKIYA Clone Site</title>
+    <meta name="description" content="MIKIYA KOBAYASHI 클론 코딩 사이트" />
+    <meta name="author" content="HLK" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/31f273f6bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <span> </span>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="main-container">
+        <div class="main__title">
+          <span id="title__1">M</span>
+          <span id="title__2">I</span>
+          <span id="title__3">K</span>
+          <span id="title__4">I</span>
+          <span id="title__5">Y</span>
+          <span id="title__6">A</span>
+          <span id="title__7">K</span>
+          <span id="title__8">O</span>
+          <span id="title__9">B</span>
+          <span id="title__10">A</span>
+          <span id="title__11">Y</span>
+          <span id="title__12">A</span>
+          <span id="title__13">S</span>
+          <span id="title__14">H</span>
+          <span id="title__15">I</span>
+        </div>
+        <button class="main__scroll">scroll</button>
+      </section>
+      <!-- header -->
+      <header class="header">
+        <button class="header__projects__btn">
+          <i class="fa-solid fa-bars header__projects__icon"></i>
+          <h2>PROJECTS</h2>
+        </button>
+        <a href="#" class="header__logo">KOBAYASHI SITE</a>
+        <button class="header__all__btn">
+          <i class="fa-solid fa-magnifying-glass header__all__icon"></i>
+          <h2>ALL</h2>
+        </button>
+      </header>
+      <aside class="menu">
+        <div class="overlay hidden"></div>
+        <!-- Left Menu -->
+        <nav class="menu__projects hidden">
+          <ul class="menu__projects__ul">
+            <li class="menu__projects__list"><a href="#">PROJECTS</a></li>
+            <li class="menu__projects__list"><a href="#">NEWS</a></li>
+            <li class="menu__projects__list"><a href="#">PROFILE</a></li>
+            <li class="menu__projects__list"><a href="#">PRESS</a></li>
+            <li class="menu__projects__list"><a href="#">CONTACT</a></li>
+            <li class="menu__projects__list"><a href="#">TAIYOU&C.</a></li>
+            <li class="menu__projects__list"><a href="#">IMPLEMENTS</a></li>
+            <li class="menu__projects__list"><a href="#">FACEBOOKS</a></li>
+            <li class="menu__projects__list"><a href="#">INSTAGRAM</a></li>
+          </ul>
+        </nav>
+        <!-- Right menu -->
+        <nav class="menu__all hidden">
+          <ul class="menu__all__ul">
+            <li class="menu__all__list clicked" data-type="all">
+              <a href="#">ALL</a>
+            </li>
+            <li class="menu__all__list">
+              <a href="#" class="menu__all__a">FURNITURE</a>
+              <ul class="menu__all__hover menu__all__furniture hidden">
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">FURNITURE</h5>
+                  <a href="#" class="hover__list__contents">ALL ITEMS</a>
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Producer</h5>
+                  <a href="#" class="hover__list__contents">HL STUDIO</a>
+                  <a href="#" class="hover__list__contents"
+                    >KOHEI GLASS STUDIO</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Year</h5>
+                  <a href="#" class="hover__list__contents">2019</a>
+                  <a href="#" class="hover__list__contents">2020</a>
+                  <a href="#" class="hover__list__contents">2021</a>
+                  <a href="#" class="hover__list__contents">2022</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__all__list">
+              <a href="#" class="menu__all__a" class="menu__product">PRODUCT</a>
+              <ul class="menu__all__hover menu__all__product hidden">
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">PRODUCT</h5>
+                  <a href="#" class="hover__list__contents">ALL ITEMS</a>
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Producer</h5>
+                  <a href="#" class="hover__list__contents">HL STUDIO</a>
+                  <a href="#" class="hover__list__contents"
+                    >KOHEI GLASS STUDIO</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">AIDEC</h5>
+                  <a href="#" class="hover__list__contents"
+                    >HARU by KARIMOKU [3]</a
+                  >
+                  <a href="#" class="hover__list__contents">KANAYA [1]</a>
+                  <a href="#" class="hover__list__contents">HIDA FOREST [2]</a>
+                  <a href="#" class="hover__list__contents"
+                    >KOHEI GLASS STUDIO [1]</a
+                  >
+                  <a href="#" class="hover__list__contents"
+                    >HOKKAIDO ARTS FOUNDATION [1]</a
+                  >
+                  <a href="#" class="hover__list__contents"
+                    >nagi by FUJI FURNITURE [5]</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Year</h5>
+                  <a href="#" class="hover__list__contents">2019</a>
+                  <a href="#" class="hover__list__contents">2020</a>
+                  <a href="#" class="hover__list__contents">2021</a>
+                  <a href="#" class="hover__list__contents">2022</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__all__list">
+              <a href="#" class="menu__all__a" class="menu__space">SPACE</a>
+              <ul class="menu__all__hover menu__all__space hidden">
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">SPACE</h5>
+                  <a href="#" class="hover__list__contents">ALL ITEMS</a>
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Producer</h5>
+                  <a href="#" class="hover__list__contents">HL STUDIO</a>
+                  <a href="#" class="hover__list__contents"
+                    >KOHEI GLASS STUDIO</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Year</h5>
+                  <a href="#" class="hover__list__contents">2019</a>
+                  <a href="#" class="hover__list__contents">2020</a>
+                  <a href="#" class="hover__list__contents">2021</a>
+                  <a href="#" class="hover__list__contents">2022</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__all__list">
+              <a href="#" class="menu__all__a" class="menu__others">OTHERS</a>
+              <ul class="menu__all__hover menu__all__others hidden">
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">OTHERS</h5>
+                  <a href="#" class="hover__list__contents">ALL ITEMS</a>
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Producer</h5>
+                  <a href="#" class="hover__list__contents">HL STUDIO</a>
+                  <a href="#" class="hover__list__contents"
+                    >KOHEI GLASS STUDIO</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Type</h5>
+                  <a href="#" class="hover__list__contents"
+                    >Collaboration work [0]</a
+                  >
+                  <a href="#" class="hover__list__contents">Making [0]</a>
+                  <a href="#" class="hover__list__contents"
+                    >Package design [1]</a
+                  >
+                  <a href="#" class="hover__list__contents"
+                    >Textile design [1]</a
+                  >
+                </li>
+                <li class="hover__list">
+                  <h5 class="hover__list__heading">Year</h5>
+                  <a href="#" class="hover__list__contents">2019</a>
+                  <a href="#" class="hover__list__contents">2020</a>
+                  <a href="#" class="hover__list__contents">2021</a>
+                  <a href="#" class="hover__list__contents">2022</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- main -->
+      <main class="main">
+        <ul class="main__card-container">
+          <!-- <li class="main__card__list">
+            <p class="main__hover__contents">
+              <b>CHAIR</b>
+              <span></span>
+              WOOD
+            </p>
+          </li> -->
+        </ul>
+      </main>
+      <footer class="footer">
+        <a href="https://www.mikiyakobayashi.com/">© MIKIYA KOBAYASHI INC.</a>
+        클론 코딩 사이트
+      </footer>
+    </div>
+  </body>
+</html>
